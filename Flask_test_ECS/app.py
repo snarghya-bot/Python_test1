@@ -89,4 +89,4 @@ def weather():
 if __name__ == "__main__":
     # host="0.0.0.0" is required for Docker — makes the app reachable
     # from outside the container, not just localhost
-    app.run(host="0.0.0.0", port=5000, debug=True)
+    app.run(host="0.0.0.0", port=8080, debug=True)
